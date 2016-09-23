@@ -39,35 +39,33 @@ function createTemplate(date){
     var datee=data.date;
     var heading=data.heading;
     var content=data.content;
-var htmltemplate=`
+    var htmltemplate=`
    
-<html>
-  <head>
-    <title>
-       ${title}
-    </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/> 
-    <link href="/ui/style.css" rel="stylesheet" />
+           <html>
+                 <head>
+                    <title>
+                        ${title}
+                    </title>
+                    <meta name="viewport" content="width=device-width, initial-scale=1"/> 
+                    <link href="/ui/style.css" rel="stylesheet" />
      
-   </head>
-   <body>
-    <div class="container">
-      <div>
-   	   <a href="/">Home</a>
-      </div>
-      <h3>
-        ${heading}
-       </h3>
-       <div>
-         ${datee}
-        </div>
-          ${content}
-         </div>
+                </head>
+                <body>
+                    <div class="container">
+                    //<div>
+   	                    <a href="/">Home</a>
+                     </div>
+                    <h3>
+                        ${heading}
+                    </h3>
+                    <div>
+                         ${datee}
+                     </div>
+                        ${content}
+                    </div>
       
-       </body>
-</html>
-
- `;
+                </body>
+            </html> `;
 return htmltemplate;
 }
 
