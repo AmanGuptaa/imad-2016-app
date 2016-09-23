@@ -39,8 +39,6 @@ function createTemplate(date){
     var datee=data.date;
     var heading=data.heading;
     var content=data.content;
-    
-}
 var htmltemplate=`
    
 <html>
@@ -69,7 +67,7 @@ var htmltemplate=`
        </body>
 </html>
 
-`;
+ `;
 return htmltemplate;
 }
 
