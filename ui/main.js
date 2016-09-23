@@ -19,12 +19,23 @@ function moveRight()
   marginLeft=marginLeft+1;
   img.style.marginLeft=marginLeft+'px';
 }
+
+function moveLeftt()
+{
+  marginRight=marginRight+1;
+  img.style.marginRight=marginRight+'px';
+}
+
+
+
 img.onclick=function()
 {
     
     for(var i=1;i<10;i++)
 {
     var interval=setInterval(moveRight,50);
+    var interval1=setInterval(moveLeft,50);
+    
 }
     
  // img.style.marginLeft='100px';
