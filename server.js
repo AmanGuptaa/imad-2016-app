@@ -55,6 +55,17 @@ var articles = {
                         </p>`
                 
             }
+            'message':{
+              title:'Ugent message | Aman Gupta ',
+              heading:'Urgent msg',
+              date:'Sep 26, 2016',
+              content:`
+                        <p>
+                            hi akanhsa..!! i am Aman .
+                            I never thought that you wont tell me about  thingssss..!!!
+                        </p>`
+                
+            }
 };
   
         
