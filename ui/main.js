@@ -28,16 +28,18 @@ function moveLeftt()
 
 
 
-img.onclick=function()
-{
-    
-    for(var i=1;i<10;i++)
+img.onRightclick=function()
 {
     var interval=setInterval(moveRight,50);
+    
+ // img.style.marginLeft='100px';
+    
+};
+
+img.onLefttclick=function()
+{
+    
     var interval1=setInterval(moveLeft,50);
-    
-}
-    
  // img.style.marginLeft='100px';
     
 };
