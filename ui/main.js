@@ -11,16 +11,22 @@ console.log('Loaded!');
 
 
 var img=document.getElementById('madi');
-var marginLeft=0;
-prompt('WANNA RACE ?');
+var marginLeft=0;  var marginRight=0;
+//prompt('WANNA RACE ?');
+
 function moveRight()
 {
-  marginLeft=marginLeft+100;
+  marginLeft=marginLeft+10;
   img.style.marginLeft=marginLeft+'px';
 }
 img.onclick=function()
 {
-    var interval=setInterval(moveRight,5);
+    
+    for(var i=1;i<10;i++)
+{
+    var interval=setInterval(moveRight,50);
+}
+    
  // img.style.marginLeft='100px';
     
 };
