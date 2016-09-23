@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 var articles = {
 
-            'articleone':{
+            'article-One':{
                 title:'Article One | Aman Gupta ',
                 heading:'Article One',
                 date:'Sep 23, 2016',
