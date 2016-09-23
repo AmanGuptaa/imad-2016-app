@@ -19,7 +19,7 @@ function moveRight()
 }
 img.onclick=function()
 {
-    var interval=setInterval(moveRight,550);
+    var interval=setInterval(moveRight,5);
  // img.style.marginLeft='100px';
     
 };
