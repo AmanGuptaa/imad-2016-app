@@ -36,7 +36,7 @@ var articles = {
             'article-two':{
                 
               title:'Article Two | Aman Gupta ',
-              heading:'Article One',
+              heading:'Article Two',
               date:'Sep 24, 2016',
               content:`
                         <p>
@@ -47,7 +47,7 @@ var articles = {
             'article-three':{
                 
               title:'Article Three | Aman Gupta ',
-              heading:'Article One',
+              heading:'Article Three',
               date:'Sep 26, 2016',
               content:`
                         <p>
