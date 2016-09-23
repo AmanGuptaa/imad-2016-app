@@ -52,18 +52,20 @@ function createTemplate(date){
                 </head>
                 <body>
                     <div class="container">
-                    //<div>
-   	                    <a href="/">Home</a>
-                     </div>
-                    <h3>
-                        ${heading}
-                    </h3>
-                    <div>
+                       <div>
+   	                     <a href="/">Home</a>
+                       </div>
+                       <hr/>
+                       <h3>
+                         ${heading}
+                       </h3>
+                       <div>
                          ${datee}
-                     </div>
-                        ${content}
+                       </div>
+                       <div>
+                         ${content}
+                       </div>
                     </div>
-      
                 </body>
             </html> `;
 return htmltemplate;
