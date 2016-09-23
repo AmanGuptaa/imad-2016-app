@@ -4,3 +4,13 @@ console.log('Loaded!');
 
 //var element=document.getElementById('main-text');
 //element.innerHTML='Hahahaha.... it was a joke..!!';
+
+
+
+// move the image
+var im=document.getElementById('madi');
+im.onclick=function()
+{
+  im.style.marginLeft='100px';
+    
+};
