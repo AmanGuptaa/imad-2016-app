@@ -8,7 +8,7 @@ app.use(morgan('combined'));
 var articleOne={
   title:'Article One | Aman Gupta ',
   heading:'Article One',
-  date:'Sep 23, 2016',
+  datee:'Sep 23, 2016',
   content:`
           <p>
              This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.
@@ -36,8 +36,8 @@ var articleOne={
 
 function createTemplate(date){
     var title=data.title;
+    var datee=data.date;
     var heading=data.heading;
-    var date=data.date;
     var content=data.content;
     
 }
@@ -61,7 +61,7 @@ var htmltemplate=`
         ${heading}
        </h3>
        <div>
-         ${date}
+         ${datee}
         </div>
           ${content}
          </div>
