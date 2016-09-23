@@ -55,7 +55,7 @@ var articles = {
                         </p>`
                 
             },
-            'message':{
+            'article-mess':{
                 
               title:'URGENT MESSAGE | Aman Gupta ',
               heading:'URGENT MESSAGE',
