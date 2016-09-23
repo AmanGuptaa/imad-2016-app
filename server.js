@@ -54,8 +54,18 @@ var articles = {
                             This is the content for my third article.
                         </p>`
                 
+            },
+            'message':{
+                
+              title:'URGENT MESSAGE | Aman Gupta ',
+              heading:'URGENT MESSAGE',
+              date:'Sep 26, 2016',
+              content:`
+                        <p>
+                            NEVER EXPECTED THIS KIND OF BEHAVIOUR FROM YOU..!!
+                        </p>`
+                
             }
-            
 };
   
         
