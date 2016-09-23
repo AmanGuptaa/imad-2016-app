@@ -46,9 +46,9 @@ var articles = {
             },
             'articlethree':{
                 
-              title:'Article Two | Aman Gupta ',
+              title:'Article Three | Aman Gupta ',
               heading:'Article One',
-              date:'Sep 24, 2016',
+              date:'Sep 26, 2016',
               content:`
                         <p>
                             This is the content for my second article.
