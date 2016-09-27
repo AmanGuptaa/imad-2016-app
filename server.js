@@ -118,10 +118,10 @@ app.get('/:articleName',function(req,res){
     res.send(createTemplate(articles[articleName]));
 });
 
-var count =0;
-app.get('/counter', function (req,res)  { 
-    count=count+1;
-   res.send(count.toString()); 
+var counter = 0;
+app.get('/counter', function (req,res) { 
+    counter=counter+1;
+   res.send(counter.toString()); 
 });
 
 
