@@ -56,7 +56,7 @@ button.onclick= function()
 
 };
 
-
+// submit name
 
 var nameInput=document.getElementById('name');
 var name = nameInput.value;
